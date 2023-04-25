@@ -1,13 +1,14 @@
 import React from "react";
-import Signav from "../components/sign/signav";
+
 import Sigbod from "../components/sign/sigbod";
+import Header from "../components/header";
 
 
 const Signup =()=>{
     return(
         <div>
-            <Signav />
-            <Sigbod />
+        {/* <Header className="relative top-[-990px]"/> */}
+        <Sigbod />
         </div>
     )
 };
