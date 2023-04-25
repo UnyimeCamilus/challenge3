@@ -12,7 +12,7 @@ const Sigbod =()=> {
   
   
   return (
-    <div className='flex pl-12'>
+    <div className='flex justify-center '>
        <div>
        
           <h3 className='text-[36px] font-semibold '>Welcome to SendEasy</h3>
