@@ -4,11 +4,11 @@ import manposty from '../../assets/manposty.svg'
 
 const Body = () =>{
     return(
-        <div className="bg-[#FB8500] flex justify-center p-8">
-            <div>
-                <h3 className="font-medium text-[#fff] text-5xl w-96">
+        <div className="bg-[#FB8500] flex justify-center p-8 ">
+            <div className="pt-[120px]">
+                <h3 className="font-medium text-[#fff] text-5xl mb-4 w-96">
                     Accelerate sales and grow your business with send easy</h3>
-                <p className="text-[#fff] w-96">
+                <p className="text-[#fff] mb-4 w-96">
                     Get all of the email marketing, CRM, and automation tools 
                     you need for increased profits,
                     better workflows and happier customers</p>
