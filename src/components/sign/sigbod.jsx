@@ -12,13 +12,13 @@ const Sigbod =()=> {
   
   
   return (
-    <div className='flex justify-center '>
-       <div>
+    <div className='flex justify-between '>
+       <div className='px-[30px] mt-[120px]'>
        
           <h3 className='text-[36px] font-semibold '>Welcome to SendEasy</h3>
           <p className='text-base font-normal mb-[41px;]'>Create an account or <Link to="/Login"><span className='text-[#138ecb]'>log in</span></Link></p>
           <form>
-          <div className=''>
+          <div >
               <label htmlFor="signup-email" className="text-base font-bold text-left">
               Email
               </label>
