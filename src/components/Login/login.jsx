@@ -4,8 +4,9 @@ import flowerlady from '../../assets/flowerlady.svg';
 
 function Login() {
   return (
-    <div className='flex justify-center'> 
-    <div>
+    
+    <div className='flex justify-between'> 
+    <div className='px-[40px]'>
 
         <h3>Login</h3>
         <p>Need a SendNow account? Create an account</p>
