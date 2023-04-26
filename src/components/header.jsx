@@ -13,7 +13,7 @@ const Header = () =>{
   };
     return(
         <div>
-            <div className="flex bg-[#FB8500] justify-center gap-40 shadow md:shadow-lg p-8 items-stretch md:items-center  fixed w-full">
+            <div className="flex bg-[#FB8500] z-20 justify-center gap-40 shadow md:shadow-lg p-8 items-stretch md:items-center  fixed w-full">
                 <Link to="/">
                 <img src={sendlogo} alt="" />
                 </Link>

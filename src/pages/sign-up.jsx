@@ -8,7 +8,7 @@ import Halfnav from "../components/halfnav";
 const Signup =()=>{
     return(
         <div>
-       <Halfnav />
+       <Header />
         <Sigbod />
         </div>
     )

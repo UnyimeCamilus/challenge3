@@ -89,7 +89,7 @@ const Sigbod =()=> {
             
           </form>
        </div>
-       <div className='bg-[#fb8500] w-[45%] relative'>
+       <div className='bg-[#fb8500] w-[50%] relative'>
           <img src={flowerlady} alt="" />
        </div>
       
