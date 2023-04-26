@@ -31,7 +31,7 @@ const Header = () =>{
                             <Link to="/">Products </Link></li>
                         <li><Link to="/">Resources</Link></li>
                         <li><Link to="/">Inspiration</Link></li>
-                        <li><Link>Pricing</Link></li>
+                        <li><Link>Selectplan</Link></li>
                     </ul>
                     <img src={navsearch} alt="" />
                     <button className="border border-gray-600 p-1 w-20 text-[#fff] hover:bg-[#023047] font-bold">
@@ -43,10 +43,10 @@ const Header = () =>{
                 <nav className="hidden justify-center items-center md:flex ">
                     <ul className="flex gap-5 pl-5">
                         <li>
-                            <Link to="/">Products </Link></li>
-                        <li><Link to="/">Resources</Link></li>
-                        <li><Link to="/">Inspiration</Link></li>
-                        <li><Link>Pricing</Link></li>
+                            <Link to="/Products">Products </Link></li>
+                        <li><Link to="/Resources">Resources</Link></li>
+                        <li><Link to="/Inspiration">Inspiration</Link></li>
+                        <li><Link to="/Selectplan">Selectplan</Link></li>
                     </ul>
                     <img src={navsearch} alt="" />
                     <button className="border border-gray-600 p-1 w-20 text-[#fff] hover:bg-[#023047] font-bold">
